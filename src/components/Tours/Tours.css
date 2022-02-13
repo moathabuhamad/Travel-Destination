@@ -1,0 +1,12 @@
+img {
+    width: 95%;
+    height: 95%;
+}
+
+#Tours-Container
+{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
