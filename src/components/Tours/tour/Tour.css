@@ -1,0 +1,15 @@
+.card{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.card img{
+    width:30%;
+    height:30%;
+}
+.card h3{
+    font-size: 3vh;
+    color: white;
+}
