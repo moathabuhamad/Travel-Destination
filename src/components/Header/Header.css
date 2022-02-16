@@ -1,19 +1,23 @@
-nav {
-  display: flex;
-  margin: 0px;
-  padding: 0 30px;
-  align-items: center;
-  justify-content: space-between;
-}
-#logo{
-  width: 100px;
-  height: 100px;
+* {
+    margin-top: 0;
+    padding: 0;
 }
 
-#title {
+.header {
     display: flex;
-    padding: 5px;
-    align-items: center;
     justify-content: space-between;
-    width: 25%;
+    background-color: rosybrown;
+}
+
+nav {
+    align-self: center;
+    margin-right: 10px;
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    text-align: center;
 }
